@@ -1,0 +1,37 @@
+.logo 
+{
+    width: 50!important;
+    height: 30;
+}
+.carousel-indicators li
+{
+    height: 40;
+    width: 40;
+    border-radius: 50%;
+}
+.words
+{
+    animation-name: word;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes word
+{
+    0%{color: white}
+    50%{color: red}
+    100%{color: black}
+}
+.west
+{
+    width: 80%;
+    margin: auto;
+    position: static;
+    background-color: red;
+}
+.client
+{
+    width: 200;
+    height: 200;
+    margin: auto;
+}

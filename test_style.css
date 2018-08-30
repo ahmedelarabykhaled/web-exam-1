@@ -1,0 +1,354 @@
+.navbar-nav
+{
+    right: 130;
+}
+.bg-light
+{
+    background: rgba(0,0,0,0.2)!important;
+}
+.navbar
+{
+    height: 70;
+}
+.block1
+{
+    height: 720;
+    width: 100%;
+    background-image: url(images/pg1.jpg);
+    background-size: 100% 100%;
+    top: -70;
+    z-index: -10
+}
+.block1 .back
+{
+    height: 720;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.block1 .words
+{
+    width: 200;
+    top: 150;
+    left: auto;
+    color: white;
+    font-family: Montserrat, sans-serif;
+}
+.line
+{
+    background: red;
+    height: 10;
+    width: 40;
+}
+.block1 .btn
+{
+    background-color: red;
+    font-weight: 600;
+}
+.block1 .words h1
+{
+    font-size: 45;
+}
+.block2
+{
+    top: 720;
+    height: 350;
+    background-color: rgba(0,0,0,0.03);
+}
+.block2 p
+{
+    font-size: 18;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    color: rgba(0,0,0,0.5);
+}
+.line2
+{
+    background: red;
+    height: 3;
+    width: 80;
+}
+.block3
+{
+    height: 750;
+    width: auto;
+    top: 280;
+}
+.block3 .top .first
+{
+    font-size: 44;
+}
+.block3 .top .second
+{
+    font-size: 24;
+}
+.block3 .carousel
+{
+    height: 400;
+}
+.carousel-indicators li 
+{
+    height: 10;
+    width: 10;
+    border-radius: 50%;
+}
+.carousel-indicators li.active
+{
+    background-color: orange;
+}
+.carousel-indicators
+{
+    bottom: -50;
+}
+.block3 .right
+{
+    font-family: Montserrat, sans-serif;
+    font-size: 18;
+    color: rgba(0,0,0,0.5);
+}
+.block3 .right .btn
+{
+    background-color: rgb(249, 70, 29);
+    color: white;
+}
+.block4
+{
+    height: 650;
+    width:100%;
+    background-color: red;
+    top: 280;
+    background-image: url(images/laught.jpg);
+    background-size: 100% 100%;
+    font-family: Montserrat, sans-serif;
+}
+.block4 .back
+{
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.block4 .words
+{
+    color: white;
+}
+.block4 .words .top
+{
+    font-size: 44;
+    font-weight: 600;
+}
+.block4 .words .bottom
+{
+    font-size: 26;
+    font-weight: 400;
+}
+.line4
+{
+    background-color: rgb(249, 70, 29);
+    height: 5;
+    width: 90;
+}
+.block4 .tab
+{
+    color: white;
+}
+.block4 .logo
+{
+    font-size: 70;
+    color: #f9461d;
+}
+.block4 .up
+{
+    font-size: 50;
+    font-weight: 600;
+}
+.block4 .down
+{
+    font-size: 20;
+}
+.block5
+{
+    height: 650;
+    width:100%;
+    font-family: Montserrat, sans-serif;
+    top: 280;
+}
+.block5 .words h2
+{
+    font-size: 44;
+}
+.block5 .words p
+{
+    font-size: 24;
+}
+.block5 .wh
+{
+    color: white;
+}
+.block5 .or
+{
+    color: orange;
+}
+.block5 .blk
+{
+    background-color: green;
+}
+.block6
+{
+    height: 650;
+    width: 100%;
+    top: 280;
+}
+.block6 .words h2
+{
+    font-size: 44;
+}
+.block6 .words p
+{
+    font-size: 24;
+}
+.block6 .cir
+{
+    border-radius: 50%;
+    border:2px #f9461d solid !important;
+}
+.block6 .u-cir
+{
+    color: #f9461d;
+}
+.block6 .words
+{
+    border-color: #f9461d!important;
+}
+.block6 .words h2
+{
+    font-weight: 400 !important;
+    font-size: 30;
+}
+.block6 .words p
+{
+    font-size: 18;
+    color: rgba(0,0,0,0.7);
+}
+.line5
+{
+    background-color: rgb(249, 70, 29);
+    height: 2;
+    width: 50;
+}
+@keyframes icons
+{
+    0%{top: 0;}
+    100%{top: -50;}
+}
+block6 one:hover +cir
+{
+    animation-name: icons;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+.block7
+{
+    height: 1300;
+    width:100%;
+    background-color: gray;
+    font-family: Montserrat, sans-serif;
+    top: 280;
+}
+.block7 .btn
+{
+    background-color: #f9461d;
+}
+.block7 .im
+{
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 15px transparent solid ;
+}
+.upper
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0.001;
+}
+.upper:hover
+{
+    transition: 0.2s;
+    opacity: 1;
+}
+.block7 .upper:hover .ss
+{
+    transform: scale(2,2);
+}
+.block8
+{
+    height: 700;
+    width: 100%;
+    top: 280;
+}
+.block8 .words
+{
+    border-color: #f9461d!important;
+}
+.block8 .words h2
+{
+    font-weight: 400 !important;
+    font-size: 30;
+}
+.block8 .words p
+{
+    font-size: 18;
+    color: rgba(0,0,0,0.7);
+}
+.mmm
+{
+    box-sizing: border-box;
+    border: 15px solid transparent;
+}
+.block8 .carousel
+{
+    height: 400;
+}
+.block9
+{
+    height: 650;
+    width: 100%;
+    top: 650;
+}
+.block9 .words h2
+{
+    font-weight: 400 !important;
+    font-size: 30;
+}
+.block9 .words p
+{
+    font-size: 18;
+    color: rgba(0,0,0,0.7);
+}
+.line5
+{
+    background: red;
+    height: 3;
+    width: 50;
+}
+.block10
+{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    top: 2200;
+}
+.f
+{
+    color: blue;
+}
+.t
+{
+    color: deepskyblue;
+}
+.g
+{
+    color: red;
+}
+.l
+{
+    color: dodgerblue;
+}
